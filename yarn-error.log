@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Eddy Rivera\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @frontendmasters/pet
+
+PATH: 
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Eddy Rivera\Documents\Ali\adopt-me\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Eddy Rivera\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\win_bison;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\Eddy Rivera\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Eddy Rivera\AppData\Roaming\npm;C:\Users\Eddy Rivera\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.0\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.2.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Eddy Rivera\AppData\Local\Yarn\Cache\v1\npm-rxjs-6.5.1-f7a005a9386361921b8524f38f54cbf80e5d08f4\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "adopt-me",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-eslint": "^10.0.1",
+      "eslint": "^5.16.0",
+      "eslint-config-prettier": "^4.2.0",
+      "eslint-plugin-import": "^2.17.2",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-react": "^7.13.0",
+      "eslint-plugin-react-hooks": "^1.6.0",
+      "parcel-bundler": "^1.12.3",
+      "prettier": "^1.17.0"
+    },
+    "dependencies": {
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
